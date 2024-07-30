@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared style */
+.title{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+.description{
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.534);
+}
+#white{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    font-size: 0.9rem;
+    color: white;
+    background-color: rgb(253, 89, 29);
+    border-radius: 15px;
+    padding: 8px 16px;
+}
+
+/* Header section style */
+.header-bg{
+    background-image: url(../images/donation13.jpg);
+}
