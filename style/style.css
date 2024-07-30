@@ -4,6 +4,10 @@
 }
 
 /* Shared style */
+.section-area{
+    width: 1040px;
+    margin: 100px auto;
+}
 .title{
     font-size: 2rem;
     color: black;
@@ -11,7 +15,7 @@
 }
 .description{
     font-size: 1.4rem;
-    color: rgba(255, 255, 255, 0.717);
+    color: rgba(0, 0, 0, 0.808);
 }
 #white{
     color: white;
@@ -57,10 +61,50 @@
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
+.header-description{
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.808);
+}
 
 /* Donate today section style */
-
-
+.donate-today{
+    align-items: center;
+    gap: 25px;
+}
+.amount-cards{
+    gap: 30px;
+}
+.amount-card{
+    background-color: rgba(211, 211, 211, 0.306);
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.amount-card h3{
+    color: rgba(2, 2, 2, 0.726);
+    font-size: 2rem;
+}
+#active{
+    background-color: rgba(255, 182, 193, 0.498);
+    border: 2px solid rgb(156, 59, 75);
+}
+#active-tk{
+    color: rgb(172, 17, 43);
+}
+input{
+    width: 20%;
+    border: none;
+    padding: 30px;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.475);
+    font-size: 1.4rem;
+    
+}
+hr{
+    width: 100%;
+    color: lightgrey;
+}
 /* Responsive style */
 @media screen and (max-width: 576px) {
     .header-content{
