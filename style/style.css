@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 /* Shared style */
@@ -14,8 +21,8 @@
     font-weight: bold;
 }
 .description{
-    font-size: 1.4rem;
-    color: rgba(0, 0, 0, 0.808);
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.575);
 }
 #white{
     color: white;
@@ -115,6 +122,35 @@ hr{
     align-items: center;
     width: 100%;
 }
+
+/* donate plan section style */
+.donate-plan{
+    gap: 40px;
+    /* border: 2px solid rgb(0, 255, 13); */
+}
+.plan-cards{
+    gap: 30px;
+    /* border: 2px solid rgb(111, 0, 255); */
+}
+.plan-card{
+    gap: 15px;
+    /* border: 2px solid rgb(255, 0, 170); */
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+#bg-green{
+    background-color: rgba(144, 238, 144, 0.215);
+}
+#bg-cream{
+    background-color: rgba(235, 226, 168, 0.461);
+}
+#bg-pink{
+    background-color: rgba(255, 182, 193, 0.269);
+}
+.plan-card h3{
+    font-size: 1.5rem;
+}
+
 /* Responsive style */
 @media screen and (max-width: 576px) {
     .header-content{
@@ -137,6 +173,13 @@ hr{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+    .plan-cards{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .plan-card{
+        margin: 0px 20px;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 792px) {
