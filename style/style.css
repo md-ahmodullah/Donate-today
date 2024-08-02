@@ -151,6 +151,24 @@ hr{
     font-size: 1.5rem;
 }
 
+/* Article section style */
+.articles{
+    gap: 120px;
+}
+.article{
+    align-items: center;
+}
+.article img{
+    width: 80%;
+    border-radius: 10px;
+}
+#row-rev{
+    flex-direction: row-reverse;
+}
+.content{
+    gap: 20px;
+}
+
 /* Responsive style */
 @media screen and (max-width: 576px) {
     .header-content{
@@ -181,6 +199,19 @@ hr{
     .plan-card{
         margin: 0px 20px;
     }
+    .articles{
+        flex-direction: column;
+        gap: 100px;
+        margin-left: 30px;
+    }
+    .article{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    #row-rev{
+        flex-direction: column;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 792px) {
     .header-content{
@@ -202,6 +233,9 @@ hr{
     .amount-cards{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .article{
         gap: 30px;
     }
 }
